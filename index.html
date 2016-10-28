@@ -6,14 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="D3 hwz1 : ">
 
-
-    <script src="javascripts/main.v3.js">
-    </script>
-
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>ZachShen </title>
-    <link rel="stylesheet" href="main.css">
     <script src="https://d3js.org/d3.v3.js"></script>
 
 </head>
@@ -39,93 +34,76 @@
             <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>HW3-1</em>
            </h3>
-            <div>
 
 
 
-                <svg width="300" height="200">
-                   <svg>
-                    <script>
-                        
-                        d3.select("svg").append("circle").attr("cx", 150).attr("cy", 120).attr("r", 15);
 
-                        d3.select("svg").append("rect").attr("x", 160).attr("y", 45).attr("width", 5).attr("height", 78);
+            <svg width="300" height="200">
 
-                        d3.select("svg").append("rect").attr
-                    </script>
-                    <line x1="0" y1="165" x2="300" y2="165" stroke="black" stroke-width="2"></line>
-                    <line x1="0" y1="135" x2="300" y2="135" stroke="black" stroke-width="2"></line>
-                    <line x1="0" y1="105" x2="300" y2="105" stroke="black" stroke-width="2"></line>
-                    <line x1="0" y1="75" x2="300" y2="75" stroke="black" stroke-width="2"></line>
-                    <line x1="0" y1="45" x2="300" y2="45" stroke="black" stroke-width="2"></line>
+                <script>
+                    d3.select("svg").append("circle").attr("cx", 150).attr("cy", 120).attr("r", 15);
 
-                    <text x="145" y="200" font-size="20" font-family="arial">
-                        A
-                    </text>
-</div>
+                    d3.select("svg").append("rect").attr("x", 160).attr("y", 45).attr("width", 5).attr("height", 78);
 
-            
-       
+                    d3.select("svg").append("rect").attr
+                </script>
+                <line x1="0" y1="165" x2="300" y2="165" stroke="black" stroke-width="2"></line>
+                <line x1="0" y1="135" x2="300" y2="135" stroke="black" stroke-width="2"></line>
+                <line x1="0" y1="105" x2="300" y2="105" stroke="black" stroke-width="2"></line>
+                <line x1="0" y1="75" x2="300" y2="75" stroke="black" stroke-width="2"></line>
+                <line x1="0" y1="45" x2="300" y2="45" stroke="black" stroke-width="2"></line>
+
+                <text x="145" y="200" font-size="20" font-family="arial">
+                    A
+                </text>
+
+
+            </svg>
+
+
+
             <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>HW3-2</em>
+<div></div>
+<em>HW3-2</em>
+<svg width="300" height="200">
+ <script>
+       for(var i=0; i<20; i++){
+  var thisNum = random(20,300);
+  d3.select("svg")
+    .append("rect")
+    .attr({
+    x: 10,
+    y: 10+12*i,
+    width: thisNum,
+    height: 10,
+    fill: "lightgreen"
+  });
+  d3.select("svg")
+    .append("text")
+    .attr({
+    x: thisNum+15,
+    y: 20+12*i,
+    "font-size": 12
+  }).text(thisNum);
+}
+function random(n,m){
+  return Math.ceil(Math.random()*(m-n)+n);
+}    
+    </script>
+</svg>
+
 <script>
               
+    
+           
+        
+   
+            
 
-<svg width="400" height="300">
-    </svg>
-    <script>
-       for(var i=0; i<20; i++){
-  var thisNum = random(20,300);
-  d3.select("svg")
-    .append("rect")
-    .attr({
-    x: 10,
-    y: 10+12*i,
-    width: thisNum,
-    height: 10,
-    fill: "lightgreen"
-  });
-  d3.select("svg")
-    .append("text")
-    .attr({
-    x: thisNum+15,
-    y: 20+12*i,
-    "font-size": 12
-  }).text(thisNum);
-}
-function random(n,m){
-  return Math.ceil(Math.random()*(m-n)+n);
-}    
-    </script>
+
+           
+          
             </h3>
-
-
-<svg width="400" height="300">
-    </svg>
-    <script>
-       for(var i=0; i<20; i++){
-  var thisNum = random(20,300);
-  d3.select("svg")
-    .append("rect")
-    .attr({
-    x: 10,
-    y: 10+12*i,
-    width: thisNum,
-    height: 10,
-    fill: "lightgreen"
-  });
-  d3.select("svg")
-    .append("text")
-    .attr({
-    x: thisNum+15,
-    y: 20+12*i,
-    "font-size": 12
-  }).text(thisNum);
-}
-function random(n,m){
-  return Math.ceil(Math.random()*(m-n)+n);
-}    
-    </script>
 
 
 
