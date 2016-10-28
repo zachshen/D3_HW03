@@ -38,7 +38,7 @@
 
 
 
-            <svg width="300" height="200">
+            <svg width="400" height="500">
 
                 <script>
                     d3.select("svg").append("circle").attr("cx", 150).attr("cy", 120).attr("r", 15);
@@ -64,8 +64,8 @@
 
             <h3>
 <div></div>
-<em>HW3-2</em>
-<svg width="300" height="200">
+<!--<em>HW3-2</em>-->
+<svg width="100" height="100">
  <script>
        for(var i=0; i<20; i++){
   var thisNum = random(20,300);
@@ -73,7 +73,7 @@
     .append("rect")
     .attr({
     x: 10,
-    y: 10+12*i,
+    y: 210+12*i,
     width: thisNum,
     height: 10,
     fill: "lightgreen"
@@ -82,7 +82,7 @@
     .append("text")
     .attr({
     x: thisNum+15,
-    y: 20+12*i,
+    y: 220+12*i,
     "font-size": 12
   }).text(thisNum);
 }
